@@ -1,10 +1,13 @@
+import { Container } from '../GlobalStyles';
 import Underlay from '../components/HomeUnderlay';
+import Model from '../components/HomeModel';
 
 function Home() {
   return (
-    <div className='container'>
+    <Container>
       <Underlay />
-    </div>
+      <Model />
+    </Container>
   )
 }
 
